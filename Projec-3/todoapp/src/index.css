@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: #d2dbdd; */
+}
+
+.main_div{
+  background-color: royalblue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center_div{
+  background-color: pink;
+  width: 20rem;
+  height: 30rem;
+  border-radius: 12px;
+}
+
+h1{
+  background-color: purple;
+  color: white;
+  text-align: center;
+}
+
+input{
+  margin-left: 40px;
+  font-size: larger;
+  background-color: pink;
+  border-top: unset;
+  border-right: unset;
+  border-left: unset;
+  border-bottom-color: purple ;  
+}
+
+button{
+  border-radius: 50%;
+  background-color: purple;
+  font-size: 35px;
+  width: 40px;
+  border: unset;
+  cursor: pointer;
+}
+
+ol{
+  list-style-type: none;
+  margin: 15px 0;
+}
+
+ol li{
+  /* margin-top: 7px; */
+  margin-left: 7px;
+}
+
+.btn:hover{
+  background-color: green;
+}
+
+
+i:hover{
+  background-color: red;
+}
+
+.listitems{
+  display: flex;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+
+
+
+
+
